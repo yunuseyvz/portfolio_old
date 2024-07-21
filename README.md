@@ -6,8 +6,6 @@ Welcome to my portfolio website! This site showcases my projects, skills, and ex
 
 This portfolio website is based on the original template created by [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). 
 
-Thank you for visiting my portfolio!
-
 ## Features
 
 **📖 Multi-Page Layout**
