@@ -1,6 +1,8 @@
 # Portfolio Website
 
-Welcome to my portfolio website! This site showcases my projects, skills, and experiences as a Media Informatics and Human-Computer Interaction student.
+Welcome to my personal portfolio website! This site showcases my projects, skills, and experiences as a Media Informatics and Human-Computer Interaction student.
+
+You can visit the site under [portfolio-yunus-vercel.app](https://portfolio-yunus.vercel.app/).
 
 ## Credits
 
