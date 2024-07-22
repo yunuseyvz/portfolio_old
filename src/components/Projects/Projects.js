@@ -8,11 +8,13 @@ import roborally from "../../Assets/Projects/roborally.png";
 import walkietalkie from "../../Assets/Projects/walkietalkie.png";
 import minigame from "../../Assets/Projects/minigame.png";
 import wecommuters from "../../Assets/Projects/wecommuters.png";
+import Transition from "../Transition";
 
 function Projects() {
   return (
+    <Transition>
     <Container fluid className="project-section">
-      <Particle />
+      
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Projects </strong>
@@ -90,6 +92,7 @@ function Projects() {
         </Row>
       </Container>
     </Container>
+    </Transition>
   );
 }
 

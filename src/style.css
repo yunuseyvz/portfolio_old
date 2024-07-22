@@ -14,6 +14,19 @@ html {
   --imp-text-color: #c770f0;
 }
 
+body {
+  /* Set the background image with a gradient and an image */
+  background-image: var(--image-gradient), url('./Assets/home-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
 .purple {
   color: var(--imp-text-color) !important;
 }
@@ -257,7 +270,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;

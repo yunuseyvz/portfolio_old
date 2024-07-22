@@ -4,12 +4,13 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import Transition from "../Transition";
 
 function Home() {
   return (
     <section>
+      <Transition>
       <Container fluid className="home-section" id="home">
-        <Particle />
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -42,6 +43,7 @@ function Home() {
         </Container>
       </Container>
       <Home2 />
+      </Transition>
     </section>
   );
 }

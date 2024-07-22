@@ -6,6 +6,8 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import Particle from "./components/Particle";
+import { AnimatePresence } from "framer-motion";
 import {
   BrowserRouter as Router,
   Route,
@@ -29,10 +31,12 @@ function App() {
   }, []);
 
   return (
+    
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
+        <Particle />
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -44,6 +48,7 @@ function App() {
         <Footer />
       </div>
     </Router>
+    
   );
 }
 

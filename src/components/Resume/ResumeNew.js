@@ -6,6 +6,8 @@ import pdf from "../../Assets/../Assets/CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import Transition from "../Transition";
+
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumeNew() {
@@ -17,8 +19,8 @@ function ResumeNew() {
 
   return (
     <div>
+      <Transition>
       <Container fluid className="resume-section">
-        <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
@@ -38,6 +40,7 @@ function ResumeNew() {
         </Row>
 
       </Container>
+      </Transition>
     </div>
   );
 }
