@@ -63,6 +63,9 @@ function Home2() {
               </li>
             </ul>
           </Col>
+          <Col md={12} className="visits">
+          <img src="https://visit-counter.vercel.app/counter.png?page=yuemya.de&s=20&c=737373&bg=00000000&no=5&ff=digi&tb=Visitors%3A+&ta=" alt="visits"/>
+          </Col>
         </Row>
       </Container>
     </Container>
