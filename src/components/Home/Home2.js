@@ -19,7 +19,7 @@ function Home2() {
               ABOUT <span className="purple"> ME </span>
             </h1>
             <p className="home-about-body">
-              My name is Yunus and I am a passionate student interested in <b className="purple">UX Design and Research</b>. Currently, I am studying Media Informatics, and starting in October, I will pursue my Master's degree in <b className="purple">Human Computer Interaction</b>.
+              My name is Yunus Emre Yavuz and I am a passionate student interested in <b className="purple">UX Design and Research</b>. Currently, I am studying Media Informatics, and starting in October, I will pursue my Master's degree in <b className="purple">Human Computer Interaction</b>.
               <br /><br />
               Throughout my studies, I have gained valuable experience in UX design, working with tools like <b className="purple">Figma</b> for UI/UX design and prototypes. My Bachelor's thesis focused on designing and evaluating visual phishing warnings, using <b className="purple">eye-tracking technology</b> and qualitative feedback to enhance user interaction and security.
               <br /><br />
