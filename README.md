@@ -12,8 +12,6 @@
 
 Welcome to my personal portfolio website! This site showcases my projects, skills, and experiences as a Media Informatics and Human-Computer Interaction student.
 
-You can visit the site under [portfolio-yunus-vercel.app](https://portfolio-yunus.vercel.app/).
-
 ## Credits
 
 This portfolio website is based on the original template created by [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). 
@@ -44,3 +42,8 @@ The page will reload if you make edits.
 
 Open the project folder and Navigate to `/src/components/`. <br/>
 You will find all the components used and you can edit your information accordingly.
+
+##Ideas and TODOs
+- Add transition and scroll animations
+- Improve the resume page
+- (maybe) Integrate a playable demo in the projects page
