@@ -3,7 +3,7 @@
   <a href="https://yuemya.de/" target="_blank">yuemya.de</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./images/readme-img.png" />
+  <img alt="Demo" src="https://github.com/yunuseyvz/Portfolio/blob/master/images/readme_img.png?raw=true" />
 </div>
 
 <br/>
