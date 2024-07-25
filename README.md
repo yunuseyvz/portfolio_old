@@ -1,3 +1,13 @@
+<h2 align="center">
+  Portfolio Website - v1.0<br/>
+  <a href="https://yuemya.de/" target="_blank">yuemya.de</a>
+</h2>
+<div align="center">
+  <img alt="Demo" src="/src/Assets/readme-img.png" />
+</div>
+
+<br/>
+
 # Portfolio Website
 
 Welcome to my personal portfolio website! This site showcases my projects, skills, and experiences as a Media Informatics and Human-Computer Interaction student.
