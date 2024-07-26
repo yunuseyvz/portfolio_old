@@ -16,6 +16,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -35,6 +36,7 @@ function App() {
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
         <Particle />
+        <SpeedInsights />
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
