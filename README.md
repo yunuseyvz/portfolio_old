@@ -3,7 +3,7 @@
   <a href="https://yuemya.de/" target="_blank">yuemya.de</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="/src/Assets/readme-img.png" />
+  <img alt="Demo" src="https://github.com/yunuseyvz/Portfolio/blob/master/images/readme_img.png?raw=true" />
 </div>
 
 <br/>
@@ -11,8 +11,6 @@
 # Portfolio Website
 
 Welcome to my personal portfolio website! This site showcases my projects, skills, and experiences as a Media Informatics and Human-Computer Interaction student.
-
-You can visit the site under [portfolio-yunus-vercel.app](https://portfolio-yunus.vercel.app/).
 
 ## Credits
 
@@ -44,3 +42,9 @@ The page will reload if you make edits.
 
 Open the project folder and Navigate to `/src/components/`. <br/>
 You will find all the components used and you can edit your information accordingly.
+
+## Ideas and TODOs
+- ~~Add visitor count~~ Done
+- Add transition and scroll animations
+- Improve the resume page
+- (maybe) Integrate a playable demo in the projects page
