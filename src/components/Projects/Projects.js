@@ -84,7 +84,7 @@ function Projects() {
                 title={<strong>2D Sidescroller Minigame</strong>}
                 description="As part of a course project, we developed a small 2D sidescroller jump and run game using Unity. My primary focus was on developing the game logic using C#. The project involved designing levels, creating character animations, and implementing game mechanics such as jumping, running, and interacting with in-game objects."
               //ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+                demoLink="https://lastchicken-yunuseyvzs-projects.vercel.app/"
               />
             </Col>
 
