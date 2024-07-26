@@ -59,10 +59,12 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={roborally}
+                imgPath={minigame}
                 isBlog={false}
-                title={<strong>RoboRally - Digital Board Game</strong>}
-                description="As part of my software development module, we developed a digital version of the board game 'RoboRally' using Java. We followed an Agile development process, focusing on coding the game's logic, implementing the user interface, and ensuring accurate game rules."
+                title={<strong>2D Sidescroller Minigame</strong>}
+                description="As part of a course project, we developed a small 2D sidescroller jump and run game using Unity. My primary focus was on developing the game logic using C#. The project involved designing levels, creating character animations, and implementing game mechanics such as jumping, running, and interacting with in-game objects."
+              //ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+                demoLink="https://lastchicken-yunuseyvzs-projects.vercel.app/"
               />
             </Col>
 
@@ -79,15 +81,12 @@ function Projects() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={minigame}
+                imgPath={roborally}
                 isBlog={false}
-                title={<strong>2D Sidescroller Minigame</strong>}
-                description="As part of a course project, we developed a small 2D sidescroller jump and run game using Unity. My primary focus was on developing the game logic using C#. The project involved designing levels, creating character animations, and implementing game mechanics such as jumping, running, and interacting with in-game objects."
-              //ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-                demoLink="https://lastchicken-yunuseyvzs-projects.vercel.app/"
+                title={<strong>RoboRally - Digital Board Game</strong>}
+                description="As part of my software development module, we developed a digital version of the board game 'RoboRally' using Java. We followed an Agile development process, focusing on coding the game's logic, implementing the user interface, and ensuring accurate game rules."
               />
             </Col>
-
 
           </Row>
         </Container>
