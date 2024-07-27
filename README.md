@@ -47,4 +47,4 @@ You will find all the components used and you can edit your information accordin
 - ~~Add visitor count~~ Done
 - Add transition and scroll animations
 - Improve the resume page
-- (maybe) Integrate a playable demo in the projects page
+- ~~(maybe) Integrate a playable demo in the projects page~~ Done
