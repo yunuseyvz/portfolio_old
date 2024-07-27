@@ -45,7 +45,7 @@ You will find all the components used and you can edit your information accordin
 
 ## Ideas and TODOs
 - ~~Add visitor count~~ Done
-- Add transition and scroll animations
-- Improve the resume page
-- ~~Integrate a playable demo in the projects page~~ 
+- Add Fancy Animations
+- Improve Resume Section
+- ~~Integrate a playable demo in the projects page~~ Done
 - Light/Dark Mode Toggle
