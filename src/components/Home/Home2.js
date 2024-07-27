@@ -1,13 +1,29 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import FlipNumbers from 'react-flip-numbers';
 
 function Home2() {
+  const [visitorCount, setVisitorCount] = useState(0);
+  const [playFlip, setPlayFlip] = useState(false);
+
+  useEffect(() => {
+    fetch("https://visit-counter.vercel.app/counter?page=yuemya.de")
+      .then(response => response.text())
+      .then(count => setVisitorCount(count));
+    const handleScroll = () => {
+      setPlayFlip(true);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -62,11 +78,25 @@ function Home2() {
             </ul>
           </Col>
           <Col md={12} className="visits">
-          <img src="https://visit-counter.vercel.app/counter.png?page=yuemya.de&s=20&c=737373&bg=00000000&no=5&ff=digi&tb=Visitors%3A+&ta=" alt="visits"/>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <span style={{ marginRight: '10px', fontSize: '1.2em', color: 'grey' }}>Visitors:</span>
+              <FlipNumbers
+                height={20}
+                width={20}
+                color="grey"
+                play={playFlip}
+                fontSize="1.2em"
+                perspective="1000px"
+                numbers={visitorCount}
+                delay={3}
+
+              />
+            </div>
           </Col>
         </Row>
       </Container>
     </Container>
   );
 }
+
 export default Home2;
