@@ -88,7 +88,7 @@ function Home2() {
                 fontSize="1.2em"
                 perspective="1000px"
                 numbers={visitorCount}
-                delay={3}
+                delay={1}
 
               />
             </div>
