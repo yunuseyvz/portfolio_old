@@ -3,7 +3,7 @@
   <a href="https://portfolio-yunus.vercel.app/" target="_blank">portfolio-yunus.vercel.app</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="https://github.com/yunuseyvz/Portfolio/blob/master/images/readme_img.png?raw=true" />
+  <img alt="Demo" src="https://github.com/yunuseyvz/portfolio_old/blob/master/images/readme_img.png?raw=true" />
 </div>
 
 <br/>
